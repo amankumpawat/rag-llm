@@ -1,6 +1,6 @@
 # RAG-LLM for ICD-11
 
-RAG-LLM is a Python tool showcasing retrieval-augmented generation (RAG) with large language models (LLMs). This particular setup focuses on querying the ICD-11 (International Classification of Diseases, 11th Revision) document. It indexes the ICD-11 PDF locally and retrieves relevant sections to answer medical coding questions with higher accuracy and fewer hallucinations. However, the approach and code can be adapted for other large text files or PDFs—simply update the data source and adjust your prompt as needed.
+RAG-LLM is a Python tool showcasing retrieval-augmented generation (RAG) with large language models (LLMs). This particular setup focuses on querying the ICD-11 (International Classification of Diseases, 11th Revision) document. It indexes the ICD-11 PDF locally and retrieves relevant sections to answer medical coding questions with higher accuracy and fewer hallucinations. However, the approach and code can be adapted for other large text files or PDFs—simply update the data source and adjust your prompt as needed. This code was optimized to Google Colab using the t4 GPU, so using other environments may need alterations.
 
 ## Features
 
